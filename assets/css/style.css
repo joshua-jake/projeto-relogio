@@ -1,0 +1,12 @@
+:root {
+    --fundo: #fdd4ce;
+    --black: #020405;
+}
+
+body{
+    background-color: var(--fundo);
+}
+
+h1 {
+    color: var(black);
+}
