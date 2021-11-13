@@ -19,12 +19,13 @@ body {
     align-items: center;
     flex-direction: column;
     background-color: var(--fundo);
-    font-family: Monserrat, helvetica, sans-serif;
+    font-family: Monserratf;
 }
 
 h1 {
     color: var(--black);
     margin-bottom: 40px;
+    cursor: pointer;
 }
 
 .relogio {
@@ -102,13 +103,18 @@ h1 {
 }
 
 .digital {
+    display: flex;
+    justify-content: center;
     color: var(--black);
     font-size: 40px;
     margin-top: 20px;
 }
 
-.footer {
+footer {
+    display: flex;
+    justify-content: center;
     margin-top: 20px;
     color: var(--black);
-    font-size: 13;
+    font-size: 20px;
+    font-family: Monserrat;
 }
